@@ -1,0 +1,2902 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='global_power_plant_database' inline='true' name='federated.0i01c5j1vye0xg1fgmbha19mz3df' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='global_power_plant_database' name='textscan.1890tcd1u8jn0k1b7zb2o1931ze7'>
+            <connection class='textscan' directory='C:/Users/민주/Desktop' filename='global_power_plant_database.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1890tcd1u8jn0k1b7zb2o1931ze7' name='global_power_plant_database.csv' table='[global_power_plant_database#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='country_long' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='gppd_idnr' ordinal='3' />
+            <column datatype='real' name='capacity_mw' ordinal='4' />
+            <column datatype='real' name='latitude' ordinal='5' />
+            <column datatype='real' name='longitude' ordinal='6' />
+            <column datatype='string' name='primary_fuel' ordinal='7' />
+            <column datatype='string' name='other_fuel1' ordinal='8' />
+            <column datatype='string' name='other_fuel2' ordinal='9' />
+            <column datatype='string' name='other_fuel3' ordinal='10' />
+            <column datatype='real' name='commissioning_year' ordinal='11' />
+            <column datatype='string' name='owner' ordinal='12' />
+            <column datatype='string' name='source' ordinal='13' />
+            <column datatype='string' name='url' ordinal='14' />
+            <column datatype='string' name='geolocation_source' ordinal='15' />
+            <column datatype='integer' name='wepp_id' ordinal='16' />
+            <column datatype='integer' name='year_of_capacity_data' ordinal='17' />
+            <column datatype='real' name='generation_gwh_2013' ordinal='18' />
+            <column datatype='real' name='generation_gwh_2014' ordinal='19' />
+            <column datatype='real' name='generation_gwh_2015' ordinal='20' />
+            <column datatype='real' name='generation_gwh_2016' ordinal='21' />
+            <column datatype='real' name='generation_gwh_2017' ordinal='22' />
+            <column datatype='real' name='generation_gwh_2018' ordinal='23' />
+            <column datatype='string' name='generation_gwh_2019' ordinal='24' />
+            <column datatype='string' name='generation_data_source' ordinal='25' />
+            <column datatype='real' name='estimated_generation_gwh_2013' ordinal='26' />
+            <column datatype='real' name='estimated_generation_gwh_2014' ordinal='27' />
+            <column datatype='real' name='estimated_generation_gwh_2015' ordinal='28' />
+            <column datatype='real' name='estimated_generation_gwh_2016' ordinal='29' />
+            <column datatype='real' name='estimated_generation_gwh_2017' ordinal='30' />
+            <column datatype='string' name='estimated_generation_note_2013' ordinal='31' />
+            <column datatype='string' name='estimated_generation_note_2014' ordinal='32' />
+            <column datatype='string' name='estimated_generation_note_2015' ordinal='33' />
+            <column datatype='string' name='estimated_generation_note_2016' ordinal='34' />
+            <column datatype='string' name='estimated_generation_note_2017' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1890tcd1u8jn0k1b7zb2o1931ze7' name='global_power_plant_database.csv' table='[global_power_plant_database#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='country_long' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='gppd_idnr' ordinal='3' />
+            <column datatype='real' name='capacity_mw' ordinal='4' />
+            <column datatype='real' name='latitude' ordinal='5' />
+            <column datatype='real' name='longitude' ordinal='6' />
+            <column datatype='string' name='primary_fuel' ordinal='7' />
+            <column datatype='string' name='other_fuel1' ordinal='8' />
+            <column datatype='string' name='other_fuel2' ordinal='9' />
+            <column datatype='string' name='other_fuel3' ordinal='10' />
+            <column datatype='real' name='commissioning_year' ordinal='11' />
+            <column datatype='string' name='owner' ordinal='12' />
+            <column datatype='string' name='source' ordinal='13' />
+            <column datatype='string' name='url' ordinal='14' />
+            <column datatype='string' name='geolocation_source' ordinal='15' />
+            <column datatype='integer' name='wepp_id' ordinal='16' />
+            <column datatype='integer' name='year_of_capacity_data' ordinal='17' />
+            <column datatype='real' name='generation_gwh_2013' ordinal='18' />
+            <column datatype='real' name='generation_gwh_2014' ordinal='19' />
+            <column datatype='real' name='generation_gwh_2015' ordinal='20' />
+            <column datatype='real' name='generation_gwh_2016' ordinal='21' />
+            <column datatype='real' name='generation_gwh_2017' ordinal='22' />
+            <column datatype='real' name='generation_gwh_2018' ordinal='23' />
+            <column datatype='string' name='generation_gwh_2019' ordinal='24' />
+            <column datatype='string' name='generation_data_source' ordinal='25' />
+            <column datatype='real' name='estimated_generation_gwh_2013' ordinal='26' />
+            <column datatype='real' name='estimated_generation_gwh_2014' ordinal='27' />
+            <column datatype='real' name='estimated_generation_gwh_2015' ordinal='28' />
+            <column datatype='real' name='estimated_generation_gwh_2016' ordinal='29' />
+            <column datatype='real' name='estimated_generation_gwh_2017' ordinal='30' />
+            <column datatype='string' name='estimated_generation_note_2013' ordinal='31' />
+            <column datatype='string' name='estimated_generation_note_2014' ordinal='32' />
+            <column datatype='string' name='estimated_generation_note_2015' ordinal='33' />
+            <column datatype='string' name='estimated_generation_note_2016' ordinal='34' />
+            <column datatype='string' name='estimated_generation_note_2017' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_long</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_long]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>country_long</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gppd_idnr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gppd_idnr]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>gppd_idnr</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity_mw</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[capacity_mw]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>capacity_mw</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_fuel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primary_fuel]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>primary_fuel</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel1]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>other_fuel1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel2]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>other_fuel2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel3]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>other_fuel3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>commissioning_year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[commissioning_year]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>commissioning_year</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>owner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[owner]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>owner</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geolocation_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geolocation_source]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>geolocation_source</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wepp_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wepp_id]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>wepp_id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_of_capacity_data</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year_of_capacity_data]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>year_of_capacity_data</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2013]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2013</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2014]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2014</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2015]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2015</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2016]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2016</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2017]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2017</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2018]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2018</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2019</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[generation_gwh_2019]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2019</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_data_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[generation_data_source]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_data_source</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh_2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh_2013]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_gwh_2013</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh_2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh_2014]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_gwh_2014</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh_2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh_2015]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_gwh_2015</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh_2016]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_gwh_2016</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh_2017]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_gwh_2017</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_note_2013</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[estimated_generation_note_2013]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_note_2013</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_note_2014</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[estimated_generation_note_2014]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_note_2014</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_note_2015</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[estimated_generation_note_2015]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_note_2015</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_note_2016</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[estimated_generation_note_2016]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_note_2016</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_note_2017</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[estimated_generation_note_2017]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_note_2017</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='global_power_plant_database.csv' datatype='table' name='[__tableau_internal_object_id__].[global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA]' role='measure' type='quantitative' />
+      <column caption='Capacity Mw' datatype='real' name='[capacity_mw]' role='measure' type='quantitative' />
+      <column caption='Commissioning Year' datatype='real' name='[commissioning_year]' role='dimension' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='CountD' caption='Country Long' datatype='string' name='[country_long]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Estimated Generation Gwh 2013' datatype='real' name='[estimated_generation_gwh_2013]' role='measure' type='quantitative' />
+      <column caption='Estimated Generation Gwh 2014' datatype='real' name='[estimated_generation_gwh_2014]' role='measure' type='quantitative' />
+      <column caption='Estimated Generation Gwh 2015' datatype='real' name='[estimated_generation_gwh_2015]' role='measure' type='quantitative' />
+      <column caption='Estimated Generation Gwh 2016' datatype='real' name='[estimated_generation_gwh_2016]' role='measure' type='quantitative' />
+      <column caption='Estimated Generation Gwh 2017' datatype='real' name='[estimated_generation_gwh_2017]' role='measure' type='quantitative' />
+      <column caption='Estimated Generation Note 2013' datatype='string' name='[estimated_generation_note_2013]' role='dimension' type='nominal' />
+      <column caption='Estimated Generation Note 2014' datatype='string' name='[estimated_generation_note_2014]' role='dimension' type='nominal' />
+      <column caption='Estimated Generation Note 2015' datatype='string' name='[estimated_generation_note_2015]' role='dimension' type='nominal' />
+      <column caption='Estimated Generation Note 2016' datatype='string' name='[estimated_generation_note_2016]' role='dimension' type='nominal' />
+      <column caption='Estimated Generation Note 2017' datatype='string' name='[estimated_generation_note_2017]' role='dimension' type='nominal' />
+      <column caption='Generation Data Source' datatype='string' name='[generation_data_source]' role='dimension' type='nominal' />
+      <column caption='Generation Gwh 2013' datatype='real' name='[generation_gwh_2013]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2014' datatype='real' name='[generation_gwh_2014]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2015' datatype='real' name='[generation_gwh_2015]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2016' datatype='real' name='[generation_gwh_2016]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2017' datatype='real' name='[generation_gwh_2017]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2018' datatype='real' name='[generation_gwh_2018]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2019' datatype='string' name='[generation_gwh_2019]' role='dimension' type='nominal' />
+      <column caption='Geolocation Source' datatype='string' name='[geolocation_source]' role='dimension' type='nominal' />
+      <column caption='Gppd Idnr' datatype='string' name='[gppd_idnr]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Other Fuel1' datatype='string' name='[other_fuel1]' role='dimension' type='nominal' />
+      <column caption='Other Fuel2' datatype='string' name='[other_fuel2]' role='dimension' type='nominal' />
+      <column caption='Other Fuel3' datatype='string' name='[other_fuel3]' role='dimension' type='nominal' />
+      <column caption='Owner' datatype='string' name='[owner]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Wepp Id' datatype='integer' name='[wepp_id]' role='dimension' type='ordinal' />
+      <column caption='Year Of Capacity Data' datatype='integer' name='[year_of_capacity_data]' role='dimension' type='quantitative' />
+      <column-instance column='[country_long]' derivation='Attribute' name='[attr:country_long:nk]' pivot='key' type='nominal' />
+      <column-instance column='[primary_fuel]' derivation='Attribute' name='[attr:primary_fuel:nk]' pivot='key' type='nominal' />
+      <column-instance column='[country_long]' derivation='Min' name='[min:country_long:nk]' pivot='key' type='nominal' />
+      <column-instance column='[country_long]' derivation='None' name='[none:country_long:nk]' pivot='key' type='nominal' />
+      <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:primary_fuel:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Biomass&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Geothermal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Waste&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Petcoke&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hydro&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Coal&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nuclear&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Wave and Tidal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Wind&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Solar&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Oil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cogeneration&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Storage&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gas&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[min:country_long:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Swaziland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;French Guiana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cote DIvoire&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Macedonia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Western Sahara&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:country_long:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Swaziland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;French Guiana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cote DIvoire&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Macedonia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Western Sahara&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:primary_fuel:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Biomass&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Geothermal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Waste&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Petcoke&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hydro&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Coal&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nuclear&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Wave and Tidal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Wind&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Solar&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Oil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cogeneration&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Storage&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gas&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:country_long:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Swaziland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;French Guiana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cote DIvoire&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Macedonia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Western Sahara&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Korea&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='global_power_plant_database.csv' id='global_power_plant_database.csv_8D6E281FA14845D59F78C5A79DFB56CA'>
+            <properties context=''>
+              <relation connection='textscan.1890tcd1u8jn0k1b7zb2o1931ze7' name='global_power_plant_database.csv' table='[global_power_plant_database#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='string' name='country_long' ordinal='1' />
+                  <column datatype='string' name='name' ordinal='2' />
+                  <column datatype='string' name='gppd_idnr' ordinal='3' />
+                  <column datatype='real' name='capacity_mw' ordinal='4' />
+                  <column datatype='real' name='latitude' ordinal='5' />
+                  <column datatype='real' name='longitude' ordinal='6' />
+                  <column datatype='string' name='primary_fuel' ordinal='7' />
+                  <column datatype='string' name='other_fuel1' ordinal='8' />
+                  <column datatype='string' name='other_fuel2' ordinal='9' />
+                  <column datatype='string' name='other_fuel3' ordinal='10' />
+                  <column datatype='real' name='commissioning_year' ordinal='11' />
+                  <column datatype='string' name='owner' ordinal='12' />
+                  <column datatype='string' name='source' ordinal='13' />
+                  <column datatype='string' name='url' ordinal='14' />
+                  <column datatype='string' name='geolocation_source' ordinal='15' />
+                  <column datatype='integer' name='wepp_id' ordinal='16' />
+                  <column datatype='integer' name='year_of_capacity_data' ordinal='17' />
+                  <column datatype='real' name='generation_gwh_2013' ordinal='18' />
+                  <column datatype='real' name='generation_gwh_2014' ordinal='19' />
+                  <column datatype='real' name='generation_gwh_2015' ordinal='20' />
+                  <column datatype='real' name='generation_gwh_2016' ordinal='21' />
+                  <column datatype='real' name='generation_gwh_2017' ordinal='22' />
+                  <column datatype='real' name='generation_gwh_2018' ordinal='23' />
+                  <column datatype='string' name='generation_gwh_2019' ordinal='24' />
+                  <column datatype='string' name='generation_data_source' ordinal='25' />
+                  <column datatype='real' name='estimated_generation_gwh_2013' ordinal='26' />
+                  <column datatype='real' name='estimated_generation_gwh_2014' ordinal='27' />
+                  <column datatype='real' name='estimated_generation_gwh_2015' ordinal='28' />
+                  <column datatype='real' name='estimated_generation_gwh_2016' ordinal='29' />
+                  <column datatype='real' name='estimated_generation_gwh_2017' ordinal='30' />
+                  <column datatype='string' name='estimated_generation_note_2013' ordinal='31' />
+                  <column datatype='string' name='estimated_generation_note_2014' ordinal='32' />
+                  <column datatype='string' name='estimated_generation_note_2015' ordinal='33' />
+                  <column datatype='string' name='estimated_generation_note_2016' ordinal='34' />
+                  <column datatype='string' name='estimated_generation_note_2017' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_0E5873194C57431188D2515284D7456A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='primary_fuel' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Country Long' />
+        <param name='target' value='primary_fuel' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global_power_plant_database' name='federated.0i01c5j1vye0xg1fgmbha19mz3df' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i01c5j1vye0xg1fgmbha19mz3df'>
+            <column caption='Capacity Mw' datatype='real' name='[capacity_mw]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Country Long' datatype='string' name='[country_long]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[country_long]' derivation='None' name='[none:country_long:nk]' pivot='key' type='nominal' />
+            <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+            <column-instance column='[capacity_mw]' derivation='Sum' name='[sum:capacity_mw:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;Japan&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;United States of America&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' value='true' />
+            <format attr='break-on-special' field='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]</rows>
+        <cols>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]</cols>
+      </table>
+      <simple-id uuid='{0AAFB314-DA8F-47C8-8F7A-C401BC971CED}' />
+    </worksheet>
+    <worksheet name='primary_fuel'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global_power_plant_database' name='federated.0i01c5j1vye0xg1fgmbha19mz3df' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i01c5j1vye0xg1fgmbha19mz3df'>
+            <column caption='Capacity Mw' datatype='real' name='[capacity_mw]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Country Long' datatype='string' name='[country_long]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[country_long]' derivation='None' name='[none:country_long:nk]' pivot='key' type='nominal' />
+            <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+            <column-instance column='[capacity_mw]' derivation='Sum' name='[sum:capacity_mw:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;Japan&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:country_long:nk]' member='&quot;United States of America&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' value='true' />
+            <format attr='break-on-special' field='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[sum:capacity_mw:qk]</rows>
+        <cols>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]</cols>
+      </table>
+      <simple-id uuid='{ECEF8066-0CDA-461C-B110-D90FAC50B91B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='primary_fuel'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]' type='highlighter' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[ctd:country_long:ok]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:capacity_mw:qk]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country:nk]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{52D60F85-D099-4A61-A068-B5400D5C02DB}' />
+    </window>
+    <window class='worksheet' name='Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[ctd:country_long:ok]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:capacity_mw:qk]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country:nk]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:country_long:nk]</field>
+            <field>[federated.0i01c5j1vye0xg1fgmbha19mz3df].[none:primary_fuel:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3FB92DFF-AD7F-4612-8FEA-B26990AA0079}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Country' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='primary_fuel' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
